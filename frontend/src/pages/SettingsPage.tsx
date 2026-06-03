@@ -2492,7 +2492,7 @@ export function SettingsPage() {
                 <p className={`text-sm ${versionInfo?.update_available ? 'text-green-600 dark:text-green-400 font-medium' : 'text-muted-foreground'}`}>
                   {versionInfo?.latest ? (
                     <a
-                      href={`https://github.com/tuanchris/dune-weaver/releases/tag/v${versionInfo.latest}`}
+                      href={`https://github.com/UBMarc/dune-weaver/releases/tag/v${versionInfo.latest}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="underline underline-offset-2 hover:opacity-80 transition-opacity"
