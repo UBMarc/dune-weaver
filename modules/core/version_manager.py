@@ -27,7 +27,7 @@ if FORCE_UPDATE_AVAILABLE or FAKE_LATEST_VERSION:
 
 class VersionManager:
     def __init__(self):
-        self.repo_owner = "tuanchris"
+        self.repo_owner = "UBMarc"
         self.repo_name = "dune-weaver"
         self.github_api_url = f"https://api.github.com/repos/{self.repo_owner}/{self.repo_name}"
         self._current_version = None
